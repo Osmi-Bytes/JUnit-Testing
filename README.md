@@ -1,5 +1,6 @@
 # JUnit-Testing
 JUnit is a widely-used unit testing framework for the Java programming language. It has played a crucial role in the evolution of test-driven development (TDD). 
+
 ![JUNIT](https://github.com/Osmi-Bytes/JUnit-Testing/assets/100902550/e8ccdbff-fd56-4d8d-956f-18cf4879b192)
 
 # JUnit 5 Overview
@@ -10,22 +11,22 @@ JUnit Jupiter: Combines the programming model and extension model for writing te
 JUnit Vintage: Provides backward compatibility by allowing you to run JUnit 3 and JUnit 4 tests on the JUnit 5 platform. It requires JUnit 4.12 or later to be present on the classpath.
 
 # Testing Examples in this repo
-# Basic Calculator Tests:
+* Basic Calculator Tests:
 In the file “JUnit Testing 01” we’ve implemented tests for a Calculator class.
 These tests likely include methods for addition and subtraction, ensuring the correctness of these operations.
-# Triangle Type Checker:
+* Triangle Type Checker:
 In the file “JUnit Testing 02” we’ve created a class that determines whether a given set of side lengths forms a right-angle, acute-angle, or obtuse-angle triangle.
 
 # Integrating JUnit with Eclipse
 To integrate JUnit with Eclipse, follow these steps:
 
-Add JUnit Jar to Your Project:
-Download the JUnit JAR files (JUnit 4 or JUnit 5) from the official website.
-In Eclipse, right-click your project, select “Build Path,” and choose “Configure Build Path.”
-Add the JAR files to your project’s build path.
-Create JUnit Test Classes:
-Right-click your class or package, choose “New,” and select “JUnit Test Case.”
-Follow the wizard to create test classes.
-Write and Run Tests:
-Write your JUnit tests in the generated test classes.
-Run the tests using the JUnit runner in Eclipse.
+* Add JUnit Jar to Your Project:
+* Download the JUnit JAR files (JUnit 4 or JUnit 5) from the official website.
+* In Eclipse, right-click your project, select “Build Path,” and choose “Configure Build Path.”
+* Add the JAR files to your project’s build path.
+* Create JUnit Test Classes:
+* Right-click your class or package, choose “New,” and select “JUnit Test Case.”
+* Follow the wizard to create test classes.
+* Write and Run Tests:
+* Write your JUnit tests in the generated test classes.
+* Run the tests using the JUnit runner in Eclipse.
